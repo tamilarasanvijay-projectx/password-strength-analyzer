@@ -91,28 +91,6 @@ Your password meets all of this project's checks.
 - It does not check password breach databases, common-password lists, or password reuse.
 - Passing the checks does not guarantee that a password is secure.
 
-## GitHub submission instructions
-
-1. Sign in to [GitHub](https://github.com/).
-2. Select **New repository**.
-3. Enter the repository name `password-strength-analyzer`.
-4. Add a short description: `A Python tool that checks password strength and gives improvement suggestions.`
-5. Choose **Public** or **Private**, according to your assignment instructions.
-6. Create the repository.
-7. Upload the files in this folder, or use Git:
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Add password strength analyzer"
-   git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/password-strength-analyzer.git
-   git push -u origin main
-   ```
-
-8. Replace `YOUR-USERNAME` with your GitHub username.
-9. Copy the repository URL and submit that URL.
-
 ## Conclusion
 
 The Password Strength Analyzer demonstrates basic password-security checks using Python. It helps users understand why password length and character variety matter and gives practical suggestions for improvement.
